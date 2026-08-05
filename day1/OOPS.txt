@@ -1,0 +1,20 @@
+OOPS : Is a programming approach to organize using objects and classes 
+features:
+Encapsulations: Protects the data, wrapping data 
+Inheritance : Inherits properties from parent to child 
+Polymorphism: same actions different forms ( premium sub)
+Abstraction: hides the complexities 
+class: Blueprint(car)
+method: function defined inside a class ( start, stop , accelerate)
+instance: real world entity (car brand)
+instance variable: belongs to object ,stores the data(color, model , price)
+
+Easy to learn 
+interpreted language : checks line by line
+Platform independent: works on windows, mac etc
+large libraries 
+open source and free
+large community support: can find i=about it anywhere
+versatile: used to develop web appli , DS , AIML etc
+High level language 
+supports multiple programming 
