@@ -1,0 +1,55 @@
+Data types
+numerical : 
+int
+float 
+complex : used in AIML and DL eg c=24+2i
+2. Sequence : list , string , tuple 
+String:
+ collection of chars enclosed in "" or'' 
+it is immutable (can change the value of the variable but cant change its own object reference in simple words the location changes ) 
+can have duplicates  
+stored in sequential order stored using index numbers 
+List : 
+collections of elements enclosed in [] 
+It is mutable (can change within its own object reference )
+its can have duplicates 
+it is dynamically sized
+it is heterogeneous(can have different data types)
+it is ordered  
+Tuple:
+collection of elements enclose in ()
+its immutable 
+its ordered 
+it can have duplicates 
+it has fixed size
+it is heterogenous 
+Set:
+collection of elements enclosed {}
+it is mutable 
+doesn't allow duplicates 
+its dynamically sized 
+it is heterogeneous(can have different data types)
+it is unordered
+
+Dictionary:
+collection of key value pairs enclosed in{}
+its ordered 
+its mutable 
+its dynamically sized
+it is heterogeneous(can have different data types)
+Frozen Set
+same as set but it is mutable cant change its size 
+declaration: a=frozenset({1,2,3})
+Boolean value: True or false
+None: can declare empty data type eg: a=None
+
+Type conversions
+int: it can be convert into float , bool , str and complex
+float : can be convert into bool , str, complex , int
+complex can be converted into str, bool
+string can be convert into int, float, bool and complex if we have numeric values  and it can also convert into str and list , tuple (neither it is word or numbers )
+tuple can be convert into list, bool , str, set
+list can be convert into tuple , str, bool, set
+set can be convert into tuple str, bool , set
+dict can be convert into str, bool, list, tuple, set(only keys)
+Boolean can be convert into int, str, float , complex
