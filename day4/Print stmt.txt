@@ -1,0 +1,20 @@
+Print stmt:The print() function is used to display output on the screen. It is one of the most commonly used functions in Python.
+Parameters
+object – The value to display.
+sep  – Separator between multiple objects. Default is a space (' ').
+end – What to print at the end. Default is a newline ('\n').
+
+print() is used to display output on the screen.
+It can print strings, numbers, variables, and expressions.
+Multiple values can be printed in one statement.
+The sep parameter changes the separator between values.
+The end parameter changes what is printed at the end of the output.
+print() automatically moves to a new line after printing unless end is changed.
+f-string: Insert variables and expressions into strings easily
+String formatting: Control how text and values are displayed
+.format() inserts values into strings.
+{} acts as a placeholder.
+Values can be inserted by position, index, or name.
+It supports number formatting, decimal control, and text alignment.
+f-strings are generally preferred in modern Python code.
+Module: Reuse Python code from another file

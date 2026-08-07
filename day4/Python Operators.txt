@@ -1,0 +1,53 @@
+Python Operators 
+we have 7 operators 
+arithmetic
+comparison
+assignment 
+relation/ logical
+membership
+identity
+bitwise 
+
+Arithmetic operators : we use this for doing basic arithmetic operations line +,-,/,%
+a/b gives the values of the divisor with no decimal point gives only int value 
+a//b give the divisor with floating value 
+a%b give the reminder
+2**3 give the value of two cube  
+
+Comparison Operators : used to compare two values using <,>,>=,<= ==, =! .
+The result of every comparison is either True or False.
+== checks whether two values are equal, while = is used to assign a value to a variable
+
+
+ assignment Operators :used to assigning a value =, +=,/=,//=etc
+= is the basic assignment operator.
+Compound assignment operators (such as +=, -=, *=, etc.) make code shorter and often more readable.
+/= always produces a floating-point result, while //= performs floor division.
+
+Relational Operators :when we are trying to check two or more conditions at same time 
+we have three types "and" ,"or", "not"
+and: Returns True if both conditions are True
+or: Returns True if at least one condition is True
+not: Reverses the result (True becomes False and vice versa)
+
+Membership Operators :Membership operators are used to check whether a value is present in a sequence such as a string, list, tuple, set, or dictionary.
+in: Returns True if the element is present.
+not in : Returns True if the element is not present.
+For dictionaries they check keys not values.
+
+Identity operators : is  used to check whether two variables refer to the same object in memory. 
+They do not compare values they compare the identity of objects.
+is : Returns True if both variables refer to the same object	
+is not: Returns True if both variables refer to different objects
+== compares values, while is compares object identity.
+Identity operators are commonly used when checking for singleton objects like None
+
+Bitwise Operators : it perform operations on the binary (bit) representation of integers like &,|,^,<<, >>,~
+AND (&): Returns 1 only if both bits are 1.
+OR (|): Returns 1 if at least one bit is 1.
+XOR (^): Returns 1 if the bits are different.
+NOT (~):Inverts all the bits.
+Left Shift (<<):Shifts bits to the left by the specified number of positions.
+Right Shift (>>):Shifts bits to the right by the specified number of positions.
+Bitwise operators work only with integers.
+They perform operations on the binary representation of numbers.
