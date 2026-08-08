@@ -1,0 +1,16 @@
+Input function
+The input()function in Python is used to take input from the user while the program is running.
+input() takes everything as a string by default
+ so if you want the user to enter a number we use int() or float().
+input() :string
+int(input())  :int number
+float(input()):decimal number
+Split()function
+The .split() method is used to break a string into multiple parts 
+It returns the result as a list.
+By default, it splits at spaces using a comma operator 
+.split(separator) breaks the string wherever the separator occurs.
+map()function
+It is used to apply a function to every item in an iterable (like a list).
+It returns a map object.
+map() converts/applies a function to each value; list() lets you see and access those values easily.
