@@ -1,0 +1,30 @@
+ Dictionary (`dict`) :A dictionary in Python is a collection of data stored in the form of key-value pairs
+ Creating an Empty Dictionary: An empty dictionary can be created using `{}`.
+ Creating a Dictionary with Elements: A dictionary can be created by placing key-value pairs inside `{}`.The general form is: {key1: value1, key2: value2, key3: value3}3. 3. Adding Elements to a Dictionary
+
+setdefault()When Key Does Not Exist
+So the rule is: If key exists: return existing value.
+If key doesn't exist : add key with default value and return that value.
+
+1. Dictionary stores data as key-value pairs.
+2. Dictionary is mutable.
+3. Dictionary preserves insertion order in modern Python.
+4. Keys must be unique.
+5. Values can be duplicated.
+6. Keys must be hashable.
+7. Lists, sets, and dictionaries cannot normally be dictionary keys because they are unhashable.
+8. Tuples and frozensets can be keys if their contents are hashable.
+9. Values can be of any data type.
+10. If an existing key is assigned a new value, the old value is replaced.
+11. in checks dictionary keys.
+12. get() retrieves a value without raising `KeyError` for a missing key.
+13. update() adds or modifies multiple key-value pairs.
+14. pop() removes a specified key.
+15. popitem() removes the last inserted key-value pair.
+16. keys() returns keys.
+17. values() returns values.
+18. items() returns key-value pairs.
+19. clear() removes all elements.
+20. m = d creates another reference to the same dictionary.
+21. d.copy() creates a separate dictionary.
+22. setdefault() inserts a key only when that key is absent.
