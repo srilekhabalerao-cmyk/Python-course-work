@@ -1,0 +1,140 @@
+Conditional Statements 
+------------------------
+1.if (used when there is only one condition and one action)
+2.if else(used if there is one condition but mutliple actions)
+3. elif ladder(used for for mutliple action and condtions)
+4. nested if (contains if inside if )
+---------------
+syntax of if 
+if condition:
+    #Statements
+-------------
+syntax for if else 
+if condition
+    #Statements t
+else:
+    #Statements f   
+------------------
+syntax for elif ladder
+if condition:
+    #Statements
+elif condition:
+    #Statements
+else(optional):
+    #Statements
+-------------------
+syntax for nested if 
+if cond1:
+    if cond2:
+        #stmt
+    else: 
+        #stmt
+else :
+    #stmt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
